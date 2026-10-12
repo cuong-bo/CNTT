@@ -1,0 +1,23 @@
+{
+  "name": "on-thi-cntt-co-ban",
+  "version": "1.0.0",
+  "description": "Ôn thi Chuẩn kỹ năng CNTT cơ bản",
+  "scripts": {
+    "build": "node tools/build-assets.js",
+    "test:unit": "node --test tests/unit/core.test.js",
+    "test:e2e": "playwright test",
+    "serve": "node tools/serve.js",
+    "test": "npm run test:unit && npm run test:e2e",
+    "shots": "node tools/shots.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@fontsource/be-vietnam-pro": "^5.3.0",
+    "@phosphor-icons/core": "^2.1.1",
+    "@playwright/test": "^1.64.0"
+  },
+  "private": true
+}
